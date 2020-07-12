@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 def home(request):
     #return HttpResponse('home')
-    return render(request,'homestore.html')
+    return render(request,'index.html')
